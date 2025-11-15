@@ -1,4 +1,3 @@
-Voici un README complet, prêt à copier-coller pour ton projet :
 
 ***
 
@@ -48,6 +47,5 @@ Prenez rendez-vous pour un diagnostic avancé : [Calendly 15mn découverte](http
 
 ***
 
-Tu peux l’adapter en ajoutant ta touche personnelle, puis le sauvegarder sous le nom `README.md` dans la racine de ton projet !  
 
-Besoin d’un résumé plus court, de détails supplémentaires ou d’une nouvelle section ? Dis-le-moi, je t’ajuste ça sur-mesure.
+
