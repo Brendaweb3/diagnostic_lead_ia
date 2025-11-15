@@ -63,4 +63,5 @@ def generate_pdf_bytes(name_or_company, email, responses_dict, score_value, conc
         elements.append(Paragraph(f"- {k} : {v}", normal_left))
         elements.append(Spacer(1,1*mm))
     elements.append(Spacer(1,6*mm))
-    elements.append(Paragraph("Pistes d'action
+    elements.append(Paragraph("Pistes d'action"))
+
