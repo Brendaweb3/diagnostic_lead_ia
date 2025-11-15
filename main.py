@@ -22,7 +22,8 @@ class VerticalGradient(Flowable):
         step = self.height / len(self.colors_list)
         y = 0
         for c in self.colors_list:
-            self.canv.setFillColorRGB(c, c, c)
+            self.canv.setFillColorRGB(+c)
+
             self.canv.rect(0, y, self.width, step, stroke=0, fill=1)
             y += step
 
@@ -64,4 +65,5 @@ def generate_pdf_bytes(name_or_company, email, responses_dict, score_value, conc
         elements.append(Spacer(1,1*mm))
     elements.append(Spacer(1,6*mm))
     elements.append(Paragraph("Pistes d'action"))
+
 
