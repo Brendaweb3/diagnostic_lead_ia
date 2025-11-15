@@ -8,6 +8,8 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
 
 st.set_page_config(page_title="Diagnostic Architect IA", page_icon="🤖", layout="centered")
+st.title("Diagnostic Architect IA (test)")
+st.write("Page connectée – correction affichage")
 
 URL_AGENDA = "https://calendly.com/bernadette-brendaboxia/15mn"
 LOGO_FILENAME = "assets/logo_brendabox.png"
@@ -65,6 +67,7 @@ def generate_pdf_bytes(name_or_company, email, responses_dict, score_value, conc
         elements.append(Spacer(1,1*mm))
     elements.append(Spacer(1,6*mm))
     elements.append(Paragraph("Pistes d'action"))
+
 
 
 
