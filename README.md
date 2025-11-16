@@ -1,5 +1,4 @@
 # Diagnostic Architect IA – BrendaBoxia
-# Diagnostic Architect IA – BrendaBoxia
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-%F0%9F%A4%97-red.svg)
@@ -59,3 +58,4 @@ pip install streamlit reportlab
 Pour toute suggestion ou bug, écrivez à [votre email] ou ouvrez une issue sur le dépôt.
 
 ***
+
